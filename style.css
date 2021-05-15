@@ -106,7 +106,7 @@ h4 {
     color: 	#515151;
 }
 
-button {
+.button1 {
     height: 40px;
     width: 150px;
     background-color: #FF8882;
@@ -114,6 +114,13 @@ button {
     font-family: 'Roboto', sans-serif;
     font-size: .875rem;
     color: white;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #ffffff;
+    border: 2px solid #FF8882;
+    color: #FF8882;
 }
 
 .flexContainer {
@@ -145,10 +152,10 @@ button {
 }
 
 @media only screen and  (max-width: 600) {
-        flex-direction: column 
-}) {
-        flex-direction: column 
-}}} 
-}) {
-        flex-direction: column 
-}}
+    flex-direction: column;
+}text-align: left;
+}
+
+@media only screen and  (max-width: 600) {
+    flex-direction: column;
+}
