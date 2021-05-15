@@ -1,0 +1,154 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    background-color: #194350;
+    margin: -10px;
+    padding-top: 10px;
+}
+
+nav img {
+    padding: 20px 0px 5px 20px;
+    width: 110px;
+    float:inline-start;
+    font-family: 'Anton', sans-serif;
+}
+
+ul {
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+li{
+    padding: 20px 40px 0px 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.logo img {
+    text-align: center;
+}
+
+.heroImg {
+    display:flex;
+    padding: 5px 0px;
+    background-color: #efeded;
+    margin: -10px;
+}
+
+.heroImg img {
+    width: 125px;
+    float: left;
+    padding: 20px 30px 10px 0px;
+}
+
+.content {
+    width: 650px;
+    padding: 0px 20px 0px 20px;
+    margin: 125px auto 50px;
+}
+
+footer {
+    background-color: #194350;
+    margin: -10px;
+}
+
+footer ul {
+    text-align: center;
+}
+
+footer li {
+    padding: 20px 40px 20px 40px;
+    color: white
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #515151;
+    line-height:140%;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 2.5rem;
+    color: #FF8882;
+    margin-bottom: -20px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    color: #515151;
+    margin-left: 20px;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: 	#515151;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    color: 	#515151;
+}
+
+button {
+    height: 40px;
+    width: 150px;
+    background-color: #FF8882;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: .875rem;
+    color: white;
+}
+
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
+.mySkills {
+    margin-top: 76px;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+    grid-template-rows: repeat;
+    padding: 20px;
+    grid-template-areas: 
+    "grid-item"
+    ;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: left;
+}
+
+@media only screen and  (max-width: 600) {
+        flex-direction: column 
+}) {
+        flex-direction: column 
+}}} 
+}) {
+        flex-direction: column 
+}}
